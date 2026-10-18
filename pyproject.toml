@@ -1,0 +1,9 @@
+[project]
+name = "healthguard-ai"
+version = "1.0.0"
+description = "Secure explainable AI reference implementation for remote patient monitoring research"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
